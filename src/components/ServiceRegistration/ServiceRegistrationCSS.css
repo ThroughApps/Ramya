@@ -1,0 +1,29 @@
+.slide-pane__header{
+    margin-Top: 52px!important;
+}
+
+.slide_pane_mail_view_c_invlistdiv .slide-pane__header_mail_view{
+    margin-Top: 0px!important;
+}
+
+.ser_reg_info a{
+    margin-right: 10px;
+    color: #428bca;
+    text-decoration: underline;
+}
+
+.ser_reg_info a span {
+    margin-right: 10px; 
+}
+
+@media only screen and (max-width : 786px){
+    .slide-pane__header{
+        margin-Top: 87px!important;
+    }
+
+    .slide_pane_mail_view_c_invlistdiv .slide-pane__header_mail_view{
+        margin-Top: 0px!important;
+    }
+
+    
+}

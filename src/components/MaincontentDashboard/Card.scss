@@ -1,0 +1,208 @@
+$dark-gray:                  #9A9A9A !default;
+$border-radius-extreme:         12px !default;
+$card-black-color:          #252422 !default;
+$border-radius-small:           3px !default;
+$danger-color:               #ef8157 !default;
+$success-color:              #6bd098 !default;
+$warning-color:              #fbc658 !default;
+$info-color:                 #51bcda !default;
+$primary-color:              #51cbce !default;
+$white-color:                #FFFFFF !default;
+$default-color:              #66615B !default;
+$font-size-small:              0.8571em     !default;
+$border-radius-small:           3px !default;
+%card-stats{
+    hr{
+      margin: 5px 15px;
+    }
+  }
+  
+  
+  .card-stats{
+      .card-body{
+          padding: 15px 15px 0px;
+  
+          .numbers{
+            text-align: right;
+            font-size: 2em;
+  
+              p{
+                  margin-bottom: 0;
+                  font-size: 30px;
+                  color:black;
+              }
+              .card-category {
+                color: $dark-gray;
+                font-size: 16px;
+                line-height: 1.4em;
+              }
+          }
+      }
+      .card-footer{
+          padding: 0px 15px 10px;
+  
+          .stats{
+            color: $dark-gray;
+          }
+  
+          hr{
+            margin-top: 10px;
+            margin-bottom: 15px;
+            border: 0;
+            border-top: 1px solid rgba(0,0,0,.1);
+          }
+      }
+      .icon-big {
+          font-size: 3em;
+          min-height: 64px;
+  
+          i{
+              line-height: 59px;
+          }
+      }
+  
+  
+  }
+  .card{
+    border-radius: $border-radius-extreme;
+    box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
+    background-color: #FFFFFF;
+    color: $card-black-color;
+    margin-bottom: 20px;
+    position: relative;
+    border: 0 none;
+  
+    -webkit-transition: transform 300ms cubic-bezier(0.34, 2, 0.6, 1), box-shadow 200ms ease;
+    -moz-transition: transform 300ms cubic-bezier(0.34, 2, 0.6, 1), box-shadow 200ms ease;
+    -o-transition: transform 300ms cubic-bezier(0.34, 2, 0.6, 1), box-shadow 200ms ease;
+    -ms-transition: transform 300ms cubic-bezier(0.34, 2, 0.6, 1), box-shadow 200ms ease;
+    transition: transform 300ms cubic-bezier(0.34, 2, 0.6, 1), box-shadow 200ms ease;
+  
+      .card-body{
+         /*  padding: 15px 15px 10px 15px; */
+         padding: 15px 15px 0px;  
+        
+          &.table-full-width{
+              padding-left: 0;
+              padding-right: 0;
+          }
+      }
+  
+      .card-header{
+        &:not([data-background-color]){
+          background-color: transparent;
+        }
+        padding: 15px 15px 0;
+        border: 0;
+  
+        .card-title{
+            margin-top: 10px;
+          
+        }
+      }
+  
+      .map{
+          border-radius: $border-radius-small;
+  
+          &.map-big{
+            height: 400px;
+          }
+      }
+  
+      &[data-background-color="orange"]{
+          background-color: $primary-color;
+  
+          .card-header{
+              background-color: $primary-color;
+          }
+  
+          .card-footer{
+              .stats{
+                  color: $white-color;
+              }
+          }
+      }
+  
+      &[data-background-color="red"]{
+          background-color: $danger-color;
+      }
+  
+      &[data-background-color="yellow"]{
+          background-color: $warning-color;
+      }
+  
+      &[data-background-color="blue"]{
+          background-color: $info-color;
+      }
+  
+      &[data-background-color="green"]{
+          background-color: $success-color;
+      }
+  
+      .image{
+          overflow: hidden;
+          height: 200px;
+          position: relative;
+      }
+  
+      .avatar{
+          width: 30px;
+          height: 30px;
+          overflow: hidden;
+          border-radius: 50%;
+          margin-bottom: 15px;
+      }
+  
+      .numbers {
+        font-size: 2em;
+      }
+  
+      .big-title {
+        font-size: 12px;
+        text-align: center;
+        font-weight: 500;
+        padding-bottom: 15px;
+      }
+  
+      label{
+          font-size: $font-size-small;
+          margin-bottom: 5px;
+          color: $dark-gray;
+      }
+  
+      .card-footer{
+          background-color: transparent;
+          border: 0;
+  
+  
+          .stats{
+              i{
+                  margin-right: 5px;
+                  position: relative;
+                  top: 0px;
+                  color: $default-color;
+              }
+          }
+  
+          .btn{
+              margin: 0;
+          }
+      }
+  
+      &.card-plain{
+          background-color: transparent;
+          box-shadow: none;
+          border-radius: 0;
+  
+  
+          .card-body{
+              padding-left: 5px;
+              padding-right: 5px;
+          }
+  
+          img{
+              border-radius: $border-radius-extreme;
+          }
+      }
+  }
+  

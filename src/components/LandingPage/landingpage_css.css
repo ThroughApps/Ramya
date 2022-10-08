@@ -1,0 +1,220 @@
+.landing_body{
+  margin:0;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+.landing_body{
+  width: 100%;
+}
+.landingpage_body .content_para{
+  font-size: 20px;
+  text-align: justify;
+}
+.landingpage_body #home{
+  height:640px;
+}
+
+/*-----header-----*/
+
+.landingpage_body .header{
+  background-image: url(./image/homeimages.png);
+   background-repeat: no-repeat;
+}
+
+.landingpage_body .container img{
+  cursor: pointer;
+  width: 100%;
+  max-height: 100%;
+}
+.landingpage_body .toggle_css{
+  display: none;
+}
+.landingpage_body .navbar .nav_css{
+  font-size: 20px;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  list-style: none;
+  
+}
+.landingpage_body .navbar .nav_list{
+  margin-left: 20px;  
+
+}
+.landingpage_body .navbar .nav-link{
+  color:black;
+  margin-bottom: 0;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  
+}
+.landingpage_body .navbar-nav{
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  color: #255753;
+  right: 0;
+  position: absolute;
+}
+.landingpage_body .button {
+  background-color:black;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+/*table*/
+.landingpage_body .table{
+  margin-top:150px;
+  margin-left: 0px;
+  padding-left: -15px;
+}
+.landingpage_body .table th {
+  cursor: pointer;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+background: rgba(3,168,120,0.3);
+} 
+.landingpage_body .table th a{
+  color: white;
+  text-transform: uppercase;
+}
+.landingpage_body .table th:hover {
+  opacity: 0.5;
+
+}
+
+/*content*/
+
+.landingpage_body .sidenav {
+  width: 90px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 120px;
+  margin-top: 90px;
+}
+
+.landingpage_body .sidenav li{
+padding-bottom: 30px;
+list-style: none;
+}
+.landingpage_body .sidenav img{
+  width: 100%;
+}
+/*container*/
+.landingpage_body .row{
+  margin-top: 10%;
+}
+
+/*contact*/
+.landingpage_body #grid {
+  margin-top: 80px;
+  background: url(./image/bgimage.jpg) no-repeat fixed center center / cover rgba(0, 0, 0, 0);
+  min-height: 300px;
+
+}
+.landingpage_body #grid .grid_head{
+  text-align: justify;
+  text-align: center;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+
+}
+.landingpage_body #grid .content_para{
+  font-style: bold;
+  text-align: center;
+}
+.landingpage_body #grid .row{
+  margin-top: 50px;
+}
+
+.landingpage_body .jumbotron{
+  height: 380px;
+}
+  .landingpage_body .jumbotron .content_para{
+    text-align: center;
+     font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  }
+.landingpage_body .jumbotron .row{
+  margin-top: 0;
+
+}
+/* benefit image*/
+.landingpage_body .benefit_img{
+  margin-left: 30px;
+}
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+
+ .landingpage_body .body{
+    width: 100%;
+  }
+  .landingpage_body .toggle_css{
+    display: inline;
+  }
+   .landingpage_body .heading_css{
+    font-size: 20px;
+ margin-top: 50px;
+  }
+  .landingpage_body .table{
+  margin-top:250px;
+  margin-left: 0px;
+  padding-left: -15px;
+}
+ .landingpage_body  .navbar-nav{
+    position: relative !important;
+  }
+ .landingpage_body .sidenav{
+    display: none;
+  }
+  .landingpage_body .mapouter {
+  display: none;
+}
+}
+@media only screen and (max-width: 360px) 
+{
+  .landingpage_body .body{
+    width: 120%;
+  }
+  .landingpage_body .toggle_css{
+    display: inline;
+  }
+  .landingpage_body .heading_css{
+    font-size: 20px;
+ margin-top: -50px;
+  }
+ 
+  .landingpage_body .navbar-nav{
+    position: relative !important;
+  }
+ .landingpage_body .sidenav{
+    display: none;
+  }
+ .landingpage_body .mapouter {
+  display: none;
+}
+}
+@media only screen and (max-width: 320px) 
+{
+  .landingpage_body .body{
+    width: 140%;
+  }
+  .landingpage_body .toggle_css{
+    display: inline;
+  }
+  .landingpage_body .heading_css{
+    font-size: 20px;
+ margin-top: -50px;
+  }
+
+ .landingpage_body .navbar-nav{
+    position: relative !important;
+  }
+  .landingpage_body.sidenav{
+    display: none;
+  }
+.landingpage_body .mapouter {
+  display: none;
+}
+}

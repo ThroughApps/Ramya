@@ -1,0 +1,19 @@
+/*FOR DAY NAMES -- SUN,MON,TUE,WED,THU,FRI,SAT */
+.Cell-dayOfWeek-332, .jss332{
+    font-size: 1.5rem!important;
+}
+
+/*FOR DATE BELOW THE DAY NAMES */
+.Cell-dayOfMonth-333, .jss333{
+    font-size: 1.5rem!important;
+}
+
+/*FOR TIME LABEL */
+.Label-text-355, .jss355{
+    font-size: 1.2rem!important;
+}
+
+/*FOR TODAY BUTTON */
+.MuiButton-label {
+    font-size: 13px;
+}

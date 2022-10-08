@@ -1,0 +1,21 @@
+/* header */
+.header_sm_device{
+    display: none;
+    text-align: center;
+    background-color: black;
+}
+.header_sm_device_logo{
+    color: #f5f5f5;
+}
+
+/* mobile view */
+@media screen and (max-width:768px){
+    .header_sm_device{
+        display: block;
+        text-align: center;
+        background-color: black;
+    }  
+    .comp_name_cent a{
+        display: none;
+    }
+} 

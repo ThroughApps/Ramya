@@ -1,0 +1,58 @@
+.enq_Lab{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding-bottom: 15px;
+}
+
+.enq_Input{
+    width: 70%;
+}
+
+.table_Cont{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.enq_th_cls{
+
+}
+
+.table_Cont tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.productlist_Header{
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.enq_col1{
+    padding: 60px 0px;
+}
+
+.enq_Btn button{
+    margin-right: 5px;
+    background-color: rgb(5, 164, 181);
+    color: white;
+}
+
+@media only screen and (max-width:786px){
+    .enq_Input {
+        width: 100%;
+    }
+
+    .enq_Lab {
+        display: block;
+    }
+
+    .enq_Btn{
+        margin: 30px 0px;
+    }
+
+    .enq_col1{
+        padding:0px;
+    }
+}

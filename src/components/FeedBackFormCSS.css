@@ -1,0 +1,156 @@
+.smilesvg {
+    width: 100px;
+    display: block;
+    margin: 40px auto 0;
+  }
+  
+
+  
+
+
+
+
+ .path {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 0;
+ }
+    .circle {
+      -webkit-animation: dash .9s ease-in-out;
+      animation: dash .9s ease-in-out;
+    }
+    .line {
+      stroke-dashoffset: 1000;
+      -webkit-animation: dash .9s .35s ease-in-out forwards;
+      animation: dash .9s .35s ease-in-out forwards;
+    }
+    .check {
+      stroke-dashoffset: -100;
+      -webkit-animation: dash-check .9s .35s ease-in-out forwards;
+      animation: dash-check .9s .35s ease-in-out forwards;
+    }
+  
+ 
+  
+
+
+  
+  
+  
+  @-webkit-keyframes dash {
+    0% {
+      stroke-dashoffset: 1000;
+    }
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+  @keyframes dash {
+    0% {
+      stroke-dashoffset: 1000;
+    }
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+  @-webkit-keyframes dash-check {
+    0% {
+      stroke-dashoffset: -100;
+    }
+    100% {
+      stroke-dashoffset: 900;
+    }
+  }
+  
+  @keyframes dash-check {
+    0% {
+      stroke-dashoffset: -100;
+    }
+    100% {
+      stroke-dashoffset: 900;
+    }
+  }
+
+  .fb_icons a .icon1 circle,polyline:focus{
+    
+  }
+  .fb_icons a .icon1:focus{
+    fill: #f13e5f;
+}
+.fb_icons a .icon1:focus{
+    fill: #15c123;
+}
+
+.fb_icons a .icon1:hover  circle,polyline{
+    /* fill: #d47a08; */
+  }
+  .fb_icons a .icon1:hover svg{
+    fill: #f13e5f;
+}
+.fb_icons a .icon1:hover svg{
+    fill: #15c123;
+}
+
+  
+.fb_col2{
+    margin-top: 30px;
+    width: 15%;
+}
+
+.fb_col10{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 95px;
+}
+  /* feedback */
+.feedb_header{
+    font-size: 25px;
+   }
+   .fb_icons{
+    font-size: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+   }
+   .fb_txtarea_div{
+  }
+  
+   .fb_txtarea{
+    margin: 0px;
+    width: 50%;
+    height: 100px;
+   }
+  
+  .fb_submit{
+  
+  }
+  
+  .fb_div{
+    text-align: center;
+    background-color: rgb(228, 228, 228);
+    padding: 20px;
+  }
+#feedbackformdiv{
+      
+    margin: 20% 0px;
+}
+
+  @media only screen and (max-width:768px){
+    .fb_txtarea {
+        margin: 0px;
+        width: 100%;
+        height: 100px;
+    }
+
+    .fb_col10{
+        font-size: 20px;
+        text-align: center;
+        margin-top: 25px;
+      }
+      .fb_col2 {
+        margin-top: 10px;
+        width: 100%;
+    }
+      
+  }

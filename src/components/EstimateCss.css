@@ -1,0 +1,21 @@
+.estimate_Order_Rw_Div{
+    
+overflow:auto;
+margin-bottom: 150px;
+}
+
+.est_inv_list_cls_Dwn_Btn{
+    text-align: end;
+    padding: 10px 0px;
+
+}
+
+@media only screen and (max-width:786px){
+
+    .estimate_Order_Rw_Div{
+    
+        overflow:auto;
+        margin-bottom: 150px;
+        }
+        
+}

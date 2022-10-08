@@ -1,0 +1,58 @@
+.r_Pay_tog_cls{
+    display: flex;
+}
+
+.r_Pay_Labl{
+    width: 50%;  
+    
+}
+
+.r_merch_keydiv {
+    padding-bottom: 20px;
+    width: 50%;
+}
+
+.r_merch_keyInpt input{
+    width: 230px;
+}
+
+.razorpayFieldsData_cls{
+    display: flex;
+    margin-top: 20px;
+}
+
+.r_payInvoice_Mail_V {
+    display: flex;
+    align-content: flex-end;
+    vertical-align: baseline;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+
+/* .r_payInvoice_Mail_V {
+    display: flex;
+    align-content: flex-end;
+    vertical-align: baseline;
+    justify-content: space-between;
+    margin-bottom: 40px;
+} */
+.r_pay_WarnNotes{
+    font-size: 11px;
+    padding: 10px;
+    color: orange;
+    text-align: center;
+}
+
+@media only screen and (max-width:786px){
+    .slide-pane__content {
+        position: relative;
+        overflow-y: auto;
+        padding: 23px 15px;
+        flex: 1 1 auto;
+    }
+
+    .razorpayFieldsData_cls{
+        display: block;
+    margin-top: 20px;
+    }
+}

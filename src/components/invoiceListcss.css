@@ -1,0 +1,93 @@
+.inv_list_cls{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0px;
+}
+
+.inv_list_cls_pay_div{
+    display: flex;
+    width: 300px;
+}
+
+.inv_list_cls_sel_search{
+    width: 300px;
+}
+.inv_list_cls_search{
+    width: 300px;
+}
+
+
+/* .inv_list_cls_btn_rt{
+    width: 100%;
+    text-align: end;
+    margin: 10px 0px;
+} */
+.inv_HeaderCls h3{
+    text-align: center;
+    margin-top: -40px;
+    margin-bottom: 20px;
+}
+
+.inv_list_cls_ExlDwn_Btn{
+    border: 0;
+    background-color: #05a4b5;
+}
+
+
+@media only screen and (max-width:786px){
+    .inv_list_cls {
+        display: inline;
+        /* justify-content: space-evenly;
+        margin: 20px 0px; */
+        /* line-height: 80px; */
+        /* padding: 40px; */
+    }
+    .inv_list_cls_search{
+        width: unset;
+    }
+
+    .inv_list_cls_pay_div {
+        display: grid;
+        width: unset;
+    }
+    .inv_list_cls_sel_search{
+        width: 100%; 
+        margin: 10px 0px; 
+
+    }
+
+    .inv_list_cls_btn_grp .btn{
+        padding: 5px;
+    }
+
+    .inv_list_cls_Dwn_Btn{
+        margin: 10px 0px; 
+        text-align: end;
+    }
+
+    .inv_HeaderCls h3{
+        text-align: center;
+        /* margin-top: -35px; */
+        margin-bottom: 20px;
+        font-size: 20px;
+        margin-left: 40px;
+    }
+
+    .sale_Order_Rw_Div{
+        margin-bottom: 120px;
+    }
+
+
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+    background-color: #428bca;
+    border-color: #082c4b;
+}
+.pagination>li>a, .pagination>li>span
+{
+    color: #428bca;
+}
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover{
+    background-color: #1a5486;
+    color: #428bca;
+}

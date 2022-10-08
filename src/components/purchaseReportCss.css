@@ -1,0 +1,203 @@
+
+.rpt_MenuDiv{
+    margin-bottom: 100px;
+}
+.repot_headercls{
+    display: flex;
+    align-content: space-between;
+    vertical-align: baseline;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.report_card_header{
+    text-align: center;
+    margin-top: -20px;
+}
+/* #reportHeader{
+    margin-top: 0px;
+} */
+
+.repot_sub_dwldbtn_cls{
+    display: flex;
+    align-content: flex-end;
+    vertical-align: baseline;
+    justify-content: flex-end;
+    margin-bottom: 40px;
+}
+
+.repot_sub_dwldbtn_cls_daily{
+    display: flex;
+    align-content: flex-end;
+    vertical-align: baseline;
+    justify-content: flex-end;
+    margin-bottom: 40px;
+}
+.repot_sub_dwldbtn_cls_expense_daily1{
+    display: flex;
+    align-content: flex-end;
+    vertical-align: baseline;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+
+.repot_sub_dwldbtn_cls_expense_daily{
+    display: flex;
+    align-content: flex-end;
+    vertical-align: baseline;
+    justify-content: flex-end;
+    margin-bottom: 35px;
+
+}
+/* .repot_multi_Selbtn_Cls{
+    margin-bottom: -40px;
+    width: 350px;
+    padding: 10px 10px 20px 0px;
+} */
+
+.est_inv_list_cls_Dwn_Btn_expense{
+    text-align: end;
+    padding: 10px 0px;
+   /*  margin-top: -40px; */
+}
+
+.buttonright_report{  
+    padding: 5px 0px;
+    font-size: 25px;
+}
+.buttonright_report1{  
+margin-left: 5px;
+    font-size: 25px;
+}
+.single_btnright_rpt{
+    
+    padding: 5px 0px;
+    font-size: 25px;
+    text-align: end;
+
+}
+
+.btn_exceldld{
+    /* background-color: #05a4b5; */
+    background-color: #428bca !important;
+    color: white;
+    /* border-color: #ff000000;   */
+    font-size: 17px !important;
+    padding: 5px 10px !important;
+    border: none;
+}
+
+.repot_headercls {
+    display: flex;
+    align-content: space-between;
+    vertical-align: baseline;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.repot_headercls_yearly{
+    display: flex;
+    align-content: space-between;
+    vertical-align: baseline;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.repot_sub_dwldbtn_cls_yearly {
+    display: flex;
+    align-content: flex-end;
+    vertical-align: baseline;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+/* .css-2b097c-container{    margin-top: -13px;} */
+
+.text_right_report_yerly{
+    display: flex;
+}
+
+.btn_rpt_print{
+    color: white;  
+    background-color: #05a4b5;
+}
+
+.from_To_clsDiv{
+    display: inline-flex;
+}
+
+.report_Dropdn{
+    margin-top: 10px;
+    width: fit-content;
+}
+.preparedStmt{
+    margin-bottom: 50px;
+    overflow: auto;
+} 
+.reactTable_cls{
+    overflow: auto;
+    margin-bottom: 100px;
+    /* background-color: red; */
+}
+.rpt_submitbtn{
+    color:white;
+}
+.tbtn_rt_rpt{
+    background-color: white;
+    border: 0;
+}
+
+@media only screen and (max-width:786px){
+    .repot_sub_dwldbtn_cls {
+        display: flex;
+        align-content: flex-end;
+        vertical-align: baseline;
+        justify-content: flex-end;
+        margin-bottom: 40px;
+    }
+    #reportHeader{
+        margin-top: 12px;
+    }
+    h3{
+        font-size: 22px;
+    }
+
+    .repot_sub_dwldbtn_cls_yearly {
+        display: inline-block;
+        margin-bottom: 40px;
+    }
+    /* .css-2b097c-container{    margin-top: 10px;} */
+    .repot_sub_dwldbtn_cls_daily{
+        display: flex;
+        align-content: flex-end;
+        vertical-align: baseline;
+        justify-content: flex-end;
+        margin-bottom: 0px; 
+    }
+    .repot_sub_dwldbtn_cls_expense_daily{
+        display: flex;
+        align-content: flex-end;
+        vertical-align: baseline;
+        justify-content: flex-end;
+        margin-bottom: 40px;
+    }
+    .repot_sub_dwldbtn_cls_expense_daily1{
+        display: flex;
+        align-content: flex-end;
+        vertical-align: baseline;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    
+    }
+   .reactTable_cls{
+        margin-bottom: 150px;
+        overflow: auto;
+    } 
+    .report_card_header{
+        margin-top: 0px;
+    }
+}
+.mt-bot{
+    margin-bottom: 10px;
+}
+

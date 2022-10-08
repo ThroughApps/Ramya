@@ -1,0 +1,28 @@
+.panel-heading1{
+    
+  padding:6px;
+}
+.panel { 
+    border-bottom: 1px solid black;
+}
+#erpmaster1:before{
+    display: none; 
+   /* right:12%; */
+  
+  }
+  #customer:before{
+    display: none;
+
+}
+#tictoksmodule:before{
+  display: none; 
+ /* right:12%; */
+
+}
+#checkinout:before{
+  display: none;
+
+}  
+.panel{
+
+}

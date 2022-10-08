@@ -1,0 +1,29 @@
+.dwnld_rtbtn{
+    float: right;
+    margin-top: 10px;
+}
+.attcont_div{
+    padding-top: 20px;
+}
+.attheadmenu{
+    margin-bottom: 20px;
+}
+.attheadmenu a{
+    background-color: #05a4b5;
+}
+.attheadmenu a:hover{
+    background-color: #037885;
+}
+
+.montlybtn{
+    display: flex;
+    float: right;
+    /* margin-bottom: 0px; */
+    padding: 10px; 
+}
+/* .attheadmenu a:focus{
+    background-color: green;
+}
+.attheadmenu a.active{
+    background-color: yellow;
+} */

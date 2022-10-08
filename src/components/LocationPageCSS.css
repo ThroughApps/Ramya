@@ -1,0 +1,17 @@
+.currencyValCls{
+    background: lightgray;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.currencyInput{
+    color:"#05a4b5";
+    margin-left: 30px;
+   
+}
+
+.currencyInfoDiv{
+    align-content: space-around;
+    display: flex;
+    justify-content: flex-end;
+}

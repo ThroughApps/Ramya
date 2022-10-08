@@ -1,0 +1,33 @@
+#checkInOutNew{
+    background-image: url("./image/CheckInOut100m.png");
+    background-size: 80px 80px;
+    background-Color: #ffffff00;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 40px;
+    cursor: pointer;   
+}
+
+.checkinoutnew{
+    margin: auto!important;
+    width: 86px!important;
+}
+
+#checkOut {
+    background-image: url("./image/CheckInOut100m.png");
+    background-size: 80px 80px;
+    background-Color: #ffffff00;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 40px;
+    cursor: pointer;
+}
+
+#imgwidth {
+    padding: 4vw;
+    cursor: pointer;
+}
+
+#imgwidth3 {
+    background-size: 80px 80px;
+}

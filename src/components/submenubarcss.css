@@ -1,0 +1,39 @@
+.ulmenubar{
+    
+    color:           white;
+    display:         table-row-group;
+    list-style-type: none;
+    -ms-flex-pack:   space-evenly;
+    justify-content: space-evenly;
+    display:         -ms-flexbox;
+    display:         flex;
+    margin-left:     -15px;
+    margin-right:    -15px;
+    font-size:       medium;
+    padding-left:    0;
+    overflow:        hidden;
+    padding:         10px 0px;
+
+}
+.target{
+    color:           white;
+    font-size:       medium;
+    text-decoration: none;
+}
+ .target:hover{
+    color:           white;
+    font-size:       medium;
+    text-decoration: none;
+    
+} 
+
+/* .glyicon:hover{
+    color:           red;
+    font-size:       large;
+} */
+.dashboardanchorcolor{
+    color:           white;
+}
+.glyphicon{
+    color:           white;
+}

@@ -1,0 +1,17 @@
+span{
+    display: inline-block;
+}
+
+span select input { 
+    display: block; 
+    position: relative; 
+    top: 3em; 
+} 
+
+span input { text-align:center;}
+span label { 
+    display: block; 
+    position: relative; 
+    top:0em;
+    text-align: center;
+} 

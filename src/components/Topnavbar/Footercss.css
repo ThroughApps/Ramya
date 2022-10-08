@@ -1,0 +1,18 @@
+
+.fo_btm{
+margin-top: 20px;
+    background-color: rgb(5, 164, 181);
+
+    /* background-color: #333; */
+    text-align: center;
+    padding:0px 0px ;
+    color: white;
+    margin-bottom: -6px;
+} 
+.footerh5{
+    font-size: 12px;
+    font-family: "Lucida Sans Unicode";
+}
+.footerspan{
+    font-size: 10px;
+}

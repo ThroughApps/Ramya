@@ -1,0 +1,53 @@
+.w3-progress-container{
+    width:100%;
+    height:1.5em;
+    position:relative;
+    background-color:#dadada;
+    
+}
+
+.w3-progressbar{
+    background-color:#ebebeb;
+    height:100%;
+    position:absolute;
+    line-height:inherit;
+        
+}
+
+.w3-round-xlarge{
+    border-radius: 50px!important;
+
+}
+
+/* .diagnalstrips{
+    background-image: repeating-linear-gradient(
+        135deg, rgb(244, 30, 76), rgb(188, 96, 123) 10px, rgba(152, 70, 134, 0.9) 10px, rgb(152, 84, 70) 20px) !important;
+} */
+.ReactTable.-striped .rt-tr.-odd, .rt-tr.-even{
+    align-items: center;
+}
+
+ .diagnalstrips{
+border: 1px solid;
+/* background-image: repeating-linear-gradient( 120deg, rgba(0,0,0,.5), rgba(255,255,255,.1) 7px, rgba(255,255,255,.1) 13px, rgba(255,255,255,.1) 15px) !important; */
+ }
+ .circletext span{
+color: #333 !important;
+ }
+ #add
+ {
+     color: #fff;
+     padding: 5px 10px !important;
+     border: none !important;
+     background-color: #428bca;
+     border-radius: 20px;
+ }
+ .modal.in .modal-dialog{
+    transform: translateY(20px);
+ }
+
+ @media only screen and (max-width : 786px){
+    .modal.in .modal-dialog{
+        transform: translateY(40px);
+     }  
+ }

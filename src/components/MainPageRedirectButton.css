@@ -1,0 +1,48 @@
+
+/*
+body {
+    background: #e7e8e9;
+    padding: 40px;
+  }
+  */
+  
+  .pageredirectbtn {
+     /* background-image: linear-gradient(to right, #006175 0%, #00a950 100%); */
+  /*   background-image: linear-gradient(to right, #006175 0%, #104fdc 100%); */
+  background-image: linear-gradient(to right, #181819 0%, rgba(0,0,0,.5) 100%);
+      border-radius: 40px;
+    box-sizing: border-box;
+   /*   color: #00a84f;  */
+       color: #0769bd;
+      display: block;
+      font: 1.125rem 'Oswald', Arial, sans-serif; 
+      height: 35px;
+      letter-spacing: 1px;
+      margin: 0 auto;
+      padding: 4px;
+      position: relative;
+    text-decoration: none;
+      text-transform: uppercase;
+      width: 220px;
+      z-index: 0;
+  }
+  
+  .pageredirectbtn:hover {
+      color: #fff;
+  }
+  
+  .pageredirectbtn span {
+      align-items: center;
+      background: #e7e8e9;
+      border-radius: 40px;
+      display: flex;
+      justify-content: center;
+      height: 95%;
+      transition: background .5s ease;
+      width: 100%;
+  }
+  
+  .pageredirectbtn:hover span {
+      background: transparent;
+  }
+  

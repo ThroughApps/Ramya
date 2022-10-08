@@ -1,0 +1,99 @@
+.back_btn_cm_lg{
+    background-color: rgb(5, 164, 181);
+    color: white;
+    float: none;
+    display: inline-block;
+    margin-left: 5px;
+    border-radius: 5px;
+    padding: 3px 7px;
+    margin-top: 13px;  
+}
+
+
+/* inline style css */
+
+.reactIcon_Dcls{
+    text-align: right;
+    /* margin-bottom: -10px; */
+}
+.report_reactIcon_Dcls{
+    text-align: right;
+    margin-top: -15px;
+}
+.reactIcon_Btn{
+    list-style: none;
+    display: inline-flex;
+margin-right: 30px;
+}
+.reactIcon_Btn li{
+    /* background-color: #428bca; */
+    font-size: 20px;
+    padding: 5px;
+    line-height: 0px;
+    vertical-align: middle;
+    border: 1px solid aliceblue;
+    color: #428bca;
+}
+.reactIcon_Btn_txt li{
+    /* background-color: #428bca; */
+    font-size: 20px;
+    padding: 5px;
+    line-height: 0px;
+    vertical-align: middle;
+    border: 1px solid aliceblue;
+    color: #428bca;
+ /*   display: flex;*/
+    display: inline-flex;
+    border-radius: 50px;
+    align-items: center;
+
+}
+.FaRegTrashAlts{
+        background-color: #428bca;
+        color: #fff;
+    padding: 5px;
+    border-radius: 50px;
+    font-size: 30px;
+}
+.reactIcon_Btn_txt span{
+    padding-left: 10px;
+}
+.report_reactIcon_Dcls .download-table-xls-button1
+{background-color: transparent;
+    font-size: 25px;
+    padding: 10px;
+    line-height: 0px;
+    vertical-align: middle;
+    border: transparent;
+    color: #428bca;
+    margin-top: 10px;
+}
+.reactIcon_Dcls .download-table-xls-button
+{background-color: transparent;
+    font-size: 20px;
+    padding: 5px;
+    line-height: 0px;
+    vertical-align: middle;
+    color: #428bca;
+    border: 1px solid aliceblue;
+    margin-top: -70px;
+}
+.reactIcon_Dcls .download-table-xls-button1
+{background-color: transparent;
+    font-size: 20px;
+    padding: 5px;
+    line-height: 0px;
+    vertical-align: middle;
+    border: none;
+    color: #428bca;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width:768px){
+.reactIcon_Dcls{
+ margin-top: 10px;
+}
+.reactIcon_Btn{
+    margin-top: 40px;
+}
+}
